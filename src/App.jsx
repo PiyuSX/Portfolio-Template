@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SplashScreen from './components/SplashScreen';
+import SplashScreen from './components/Splashscreen';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
