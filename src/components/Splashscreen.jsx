@@ -40,7 +40,7 @@ const SplashScreen = ({ onComplete = () => {} }) => {
                 </div>
             ) : (
                 <div className={`text-center transition-all duration-1000 ${blur ? 'blur-lg' : ''}`}>
-                    <img src="/Profile.jpg" alt="Profile" className={`rounded-full mx-auto mb-4 transition-all duration-1000 ${animate ? 'w-full h-full max-w-screen max-h-screen' : 'w-32 h-32'} ${blur ? 'blur-lg' : ''}`} style={{ objectFit: 'contain' }} />
+                    <img src="./Profile.jpg" alt="Profile" className={`rounded-full mx-auto mb-4 transition-all duration-1000 ${animate ? 'w-full h-full max-w-screen max-h-screen' : 'w-32 h-32'} ${blur ? 'blur-lg' : ''}`} style={{ objectFit: 'contain' }} />
                     {!hideText && (
                         <>
                             <h1 className="text-4xl font-bold text-black dark:text-white">
